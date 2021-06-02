@@ -34,7 +34,7 @@ Date is UTC.
 
 Examples:
 
- - Rscript gethist.r SM -x desktop xfile.rds..
+ - Rscript gethist.r SM -x desktop xfile.rds  
 extracts SeaMonkey history into file xfile.rds
  - Rscript gethist.r MZ -f laptop path/to/places.sqlite xfile.rds  
 extracts Mozilla (FF or SM or other) history from file places.sqlite 
