@@ -34,20 +34,20 @@ Date is UTC.
 
 Examples:
 
-Rscript gethist.r SM -x desktop xfile.rds
- - extracts SeaMonkey history into file xfile.rds  
-Rscript gethist.r MZ -f laptop path/to/places.sqlite xfile.rds
- - extracts Mozilla (FF or SM or other) history from file places.sqlite 
-into file xfile.rds  
-Rscript gethist.r NA -a xfile.rds dbfile.rds
- - adds file xfile.rds to database dbfile.rds  
-Rscript gethist.r GC -xa desktop2 dbfile.rds
- - extracts Google Chrome history and adds it to database dbfile.rds  
-Rscript gethist.r FF -fa laptop2 /path/to/places.sqlite dbfile.rds
- - extracts Firefox history from file places.sqlite and adds it to database
-dbfile.rds  
-Rscript gethist.r NA -c rdsfile.rds csvfile.csv
- - converts an RDS file to a CSV file
+ - Rscript gethist.r SM -x desktop xfile.rds  
+extracts SeaMonkey history into file xfile.rds
+ - Rscript gethist.r MZ -f laptop path/to/places.sqlite xfile.rds  
+extracts Mozilla (FF or SM or other) history from file places.sqlite 
+into file xfile.rds
+ - Rscript gethist.r NA -a xfile.rds dbfile.rds  
+adds file xfile.rds to database dbfile.rds
+ - Rscript gethist.r GC -xa desktop2 dbfile.rds  
+extracts Google Chrome history and adds it to database dbfile.rds
+ - Rscript gethist.r FF -fa laptop2 /path/to/places.sqlite dbfile.rds  
+extracts Firefox history from file places.sqlite and adds it to database
+dbfile.rds
+ - Rscript gethist.r NA -c rdsfile.rds csvfile.csv  
+converts an RDS file to a CSV file
 
 For options -a, -xa, -fa, old main database is overwritten by the new one!
 
